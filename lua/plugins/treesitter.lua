@@ -40,7 +40,12 @@ return {
     highlight = {
       enable = true,
     },
+    indent = {
+      enable = true,
+    },
   },
+  ---@class parser_config
+  ---@field blade table
   config = function(_, opts)
     require("nvim-treesitter.configs").setup(opts)
     local parser_config = require("nvim-treesitter.parsers").get_parser_configs()

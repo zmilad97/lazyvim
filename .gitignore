@@ -1,3 +1,5 @@
+.idea
+.gitignore
 tt.*
 .tests
 doc/tags
